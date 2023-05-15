@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+   <div class="navbar navbar-default navbar-inverse">
+       <div class="container">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="/">Core Banking</a>
+           </div>
+           <ul class="nav navbar-nav">
+               <li><a href="/customercare">Terms&Condition</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+               <li><a href="/signup">Signup</a></li>
+               <li><a href="/accounts/login">Login</a></li>
+               <li><a href="/accounts/logout">Logout</a></li>
+           </ul>
+       </div>
+   </div>
+   <article>
+       <div>
+           <marquee  onmouseover="this.stop()" onmouseout="this.start()" direction="left" width="1500" height="50" bgcolor="red" text-align:center;>WELCOMETO NET BANKING SERVICE and ANY QUERIES CONTACT THIS NUMBER:-9963967593</marquee>
+       </div>
+   </article>
+   <h3>This project created by Syed Abdul Akram</h3>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
